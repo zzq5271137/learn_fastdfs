@@ -1,0 +1,6 @@
+1. tracker服务器
+   启动: /usr/bin/fdfs_trackerd /etc/fdfs/tracker.conf restart
+   查看: ps aux|grep dfs
+2. storage服务器
+   启动: /usr/bin/fdfs_storaged /etc/fdfs/storage.conf restart
+   查看: ps aux|grep dfs

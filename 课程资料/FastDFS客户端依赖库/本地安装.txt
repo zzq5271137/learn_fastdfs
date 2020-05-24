@@ -1,0 +1,1 @@
+mvn install:install-file "-DgroupId=org.csource.fastdfs" "-DartifactId=fastdfs" "-Dversion=1.2" "-Dpackaging=jar" "-Dfile=fastdfs_client_v1.20.jar"
