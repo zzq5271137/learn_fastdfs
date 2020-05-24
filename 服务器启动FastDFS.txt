@@ -1,6 +1,27 @@
-1. tracker服务器
-   启动: /usr/bin/fdfs_trackerd /etc/fdfs/tracker.conf restart
-   查看: ps aux|grep dfs
-2. storage服务器
-   启动: /usr/bin/fdfs_storaged /etc/fdfs/storage.conf restart
-   查看: ps aux|grep dfs
+1. FastDFS
+   1). tracker服务器
+       启动: /usr/bin/fdfs_trackerd /etc/fdfs/tracker.conf restart
+       查看: ps aux|grep dfs
+   2). storage服务器
+       启动: /usr/bin/fdfs_storaged /etc/fdfs/storage.conf restart
+       查看: ps aux|grep dfs
+2. Nginx
+   启动: nginx
+   查看是否启动: ps -ef|grep nginx
+              或者使用浏览器访问192.168.70.3:80, 观察是否显示Nginx的主页, 其中:
+              a). "192.168.70.3"为Nginx安装的服务器的ip地址;
+              b). "80"为nginx.conf中配置的Nginx的监听端口;
+   停止: nginx -s stop, 或者: nginx -s quit
+   重新加载配置: nginx -s reload
+
+配置FastDFS和Nginx开机自启动, 编辑/etc/rc.d/rc.local文件, 增加启动项:
+1. 在CentOS7中, /etc/rc.d/rc.local文件的权限被降低了, 需要给rc.local文件增加可执行的权限:
+   chmod +x /etc/rc.d/rc.local
+2. 编辑文件:
+   vim /etc/rc.d/rc.local
+3. 增加启动项:
+   # FastDFS start
+   /usr/bin/fdfs_trackerd /etc/fdfs/tracker.conf restart
+   /usr/bin/fdfs_storaged /etc/fdfs/storage.conf restart
+   # Nginx start
+   /usr/bin/nginx -c /opt/nginx/conf/nginx.conf

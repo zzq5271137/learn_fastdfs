@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d78f78c3-e448-4380-9640-8df539f527cc" name="Default Changelist" comment="" />
+    <list default="true" id="d78f78c3-e448-4380-9640-8df539f527cc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestFastDFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fdfs_client.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/TestFastDFS.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/fdfs_client.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/pic2.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/服务器启动FastDFS.txt" beforeDir="false" afterPath="$PROJECT_DIR$/服务器启动FastDFS.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +16,21 @@
   </component>
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -30,12 +52,16 @@
     </option>
   </component>
   <component name="ProjectId" id="1cKz21BHVKlg2MVb7zAMNiMMXPO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -58,6 +84,13 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration name="TestFastDFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestFastDFS" />
+      <module name="Learn_FastDFS" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.30" ALTERNATIVE_JRE_ENABLED="false">
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
@@ -162,6 +195,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestFastDFS" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -185,17 +223,42 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1590291861065</updated>
-      <workItem from="1590291862468" duration="576000" />
+      <workItem from="1590291862468" duration="785000" />
+      <workItem from="1590292955369" duration="21000" />
+      <workItem from="1590292979161" duration="61000" />
+      <workItem from="1590293113632" duration="3098000" />
+      <workItem from="1590297547005" duration="3264000" />
+      <workItem from="1590301379793" duration="753000" />
+      <workItem from="1590302458471" duration="278000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="270" y="54" key="SettingsEditor" timestamp="1590291987875">
+    <state width="1493" height="203" key="GridCell.Tab.0.bottom" timestamp="1590302738161">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1590291987875" />
+    <state width="1493" height="203" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590302738161" />
+    <state width="1493" height="203" key="GridCell.Tab.0.center" timestamp="1590302738161">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="203" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590302738161" />
+    <state width="1493" height="203" key="GridCell.Tab.0.left" timestamp="1590302738161">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="203" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590302738161" />
+    <state width="1493" height="203" key="GridCell.Tab.0.right" timestamp="1590302738161">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="203" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590302738161" />
+    <state x="271" y="46" key="SettingsEditor" timestamp="1590302729272">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="271" y="46" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1590302729272" />
   </component>
 </project>
