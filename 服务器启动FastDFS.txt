@@ -1,3 +1,10 @@
+服务器参数:
+1). 系统: CentOS7
+2). IP: 192.168.70.3
+3). 用户名: root
+    密码: zzq12345
+
+服务器启动项:
 1. FastDFS
    1). tracker服务器
        启动: /usr/bin/fdfs_trackerd /etc/fdfs/tracker.conf restart
@@ -7,10 +14,10 @@
        查看: ps aux|grep dfs
 2. Nginx
    启动: nginx
-   查看是否启动: ps -ef|grep nginx
-              或者使用浏览器访问192.168.70.3:80, 观察是否显示Nginx的主页, 其中:
-              a). "192.168.70.3"为Nginx安装的服务器的ip地址;
-              b). "80"为nginx.conf中配置的Nginx的监听端口;
+   查看: ps -ef|grep nginx
+        或者使用浏览器访问192.168.70.3:80, 观察是否显示Nginx的主页, 其中:
+        a). "192.168.70.3"为Nginx安装的服务器的ip地址;
+        b). "80"为nginx.conf中配置的Nginx的监听端口;
    停止: nginx -s stop, 或者: nginx -s quit
    重新加载配置: nginx -s reload
 

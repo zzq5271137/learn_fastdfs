@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d78f78c3-e448-4380-9640-8df539f527cc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/TestFastDFS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/fdfs_client.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/TestFastDFS.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/fdfs_client.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/pic2.JPG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/服务器启动FastDFS.txt" beforeDir="false" afterPath="$PROJECT_DIR$/服务器启动FastDFS.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -230,6 +225,7 @@
       <workItem from="1590297547005" duration="3264000" />
       <workItem from="1590301379793" duration="753000" />
       <workItem from="1590302458471" duration="278000" />
+      <workItem from="1591087861662" duration="124000" />
     </task>
     <servers />
   </component>
