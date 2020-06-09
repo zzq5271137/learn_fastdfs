@@ -15,7 +15,7 @@
 2. Nginx
    启动: nginx
    查看: ps -ef|grep nginx
-        或者使用浏览器访问192.168.70.3:80, 观察是否显示Nginx的主页, 其中:
+        或者使用浏览器访问"http://192.168.70.3:80", 观察是否显示Nginx的主页, 其中:
         a). "192.168.70.3"为Nginx安装的服务器的ip地址;
         b). "80"为nginx.conf中配置的Nginx的监听端口;
    停止: nginx -s stop, 或者: nginx -s quit
